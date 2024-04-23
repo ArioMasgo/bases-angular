@@ -1,0 +1,26 @@
+<h1>{{nombre}}</h1>
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+
+    <td>Método:</td>
+    <dd>{{anioNacimiento}}</dd>
+
+    <td>Capitalizado:</td>
+    <dd>{{nameCapitalizado}}</dd>
+
+    <div>
+        <button *ngIf="nombre ==='iron man'" class="btn btn-primary" (click)="cambiarNombre('Thor')">
+            Cambiar name
+        </button>
+        <button *ngIf="edad===35" class="btn btn-primary" (click)="cambiarEdad(34)">
+            Cambiar edad
+        </button>
+        <button *ngIf="(nombre !=='iron man' && edad !== 35)" class="btn btn-primary" (click)="reset()">
+            Restablecer Valores
+        </button>
+    </div>
+</dl>
