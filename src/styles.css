@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(15, 30, 112, 1) 35%,
+    rgba(97, 33, 20, 1) 100%
+  );
+  color: white;
 }
